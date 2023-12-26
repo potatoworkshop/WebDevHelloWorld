@@ -4,11 +4,33 @@
         <meta charset = "utf-8" />
         <meta name = "viewport" content = "width = device-width" />
         <title>HTML Calcuator</title>
-        <link href="styles/style.css" rel="stylesheet" />
+        <link href="styles/caculator.css" rel="stylesheet" />
+        <script src = "scripts/calculator.js" defer></script>
     </head>
     <body>
-        <img src = "images/Flower.png" alt = "My test image" />
-        <h1>Hello,world!</h1>
+        <h1>HTML Calculator</h1>
+        <div class = "calculator">
+            <div class = "display_area">0</div>
+            <div class = "keys">
+            <button class="operator" data-action = "add">+</button>
+            <button class="operator" data-action = "subtract">-</button>
+            <button class="operator" data-action = "multiply">&times;</button>
+            <button class="operator" data-action = "divide">/</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="number">0</button>
+            <button data-action = "decimal">.</button>
+            <button class = "clear" data-action = "clear">AC</button>
+            <button class = "equal_operator" data-action = "calculate">=</button>
+            </div>
+        </div>
         <p class = "ref">
             From<a href = "https://www.freecodecamp.org/news/how-to-build-an-html-calculator-app-from-scratch-using-javascript-4454b8714b98">
                 How to build an HTML calculator app from scratch using JavaScript
