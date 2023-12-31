@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang= "en-US">
+    <head>
+        <meta charset = "utf-8" />
+        <meta name = "viewport" content = "width = device-width" />
+        <title>Simple Weather App</title>
+        <link href="styles/simpleWeatherApp.css" rel="stylesheet" />
+        <script src = "scripts/simpleWeatherApp.js" defer></script>
+    </head>
+    <body>
+       <section class = 'top-banner'>
+        <div class = 'container'>
+            <h1 class = 'heading'>Simple Weather App</h1>
+            <div>From<a href ='https://webdesign.tutsplus.com/build-a-simple-weather-app-with-vanilla-javascript--cms-33893t#wheretofind'>Build a Simple Weather App With Vanilla JavaScript</a></div>
+            <form>
+                <input type = 'text' placeholder=" Search for a city" autofocus>
+                <button type = "submit">SUBMIT</button>
+                <span class = 'msg'></span>
+            </form>
+        </div>
+       </section>
+       <section class = 'ajax-section'>
+        <div class = 'container'>
+            <ul class = cities></ul>
+        </div>
+       </section>
+    </body>
+</html>
